@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9D3D002B1D821300D87099 /* SimpleFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE9D3CFE2B1D821300D87099 /* SimpleFragmentShader.glsl */; };
+		EE9D3D012B1D821300D87099 /* SimpleVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE9D3CFF2B1D821300D87099 /* SimpleVertexShader.glsl */; };
+		EE9D3D0E2B1D825000D87099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9D3D042B1D825000D87099 /* AppDelegate.m */; };
+		EE9D3D0F2B1D825000D87099 /* LayeredView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9D3D062B1D825000D87099 /* LayeredView.m */; };
+		EE9D3D102B1D825000D87099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9D3D072B1D825000D87099 /* main.m */; };
+		EE9D3D112B1D825000D87099 /* OpenGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9D3D092B1D825000D87099 /* OpenGLLayer.m */; };
+		EE9D3D122B1D825000D87099 /* OpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9D3D0B2B1D825000D87099 /* OpenGLRenderer.m */; };
+		EE9D3D132B1D825000D87099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9D3D0D2B1D825000D87099 /* ViewController.m */; };
+		EE9D3D172B1D829E00D87099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9D3D142B1D829E00D87099 /* Assets.xcassets */; };
+		EE9D3D182B1D829E00D87099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9D3D152B1D829E00D87099 /* Main.storyboard */; };
+		EEC2D0F92B1CA56800937119 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = EEC2D0F82B1CA56800937119 /* Readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE73E8F52B1B2D210040EBDA /* OpenGLLayeredView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLLayeredView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9D3CFE2B1D821300D87099 /* SimpleFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SimpleFragmentShader.glsl; path = OpenGLLayeredView/Shaders/SimpleFragmentShader.glsl; sourceTree = SOURCE_ROOT; };
+		EE9D3CFF2B1D821300D87099 /* SimpleVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SimpleVertexShader.glsl; path = OpenGLLayeredView/Shaders/SimpleVertexShader.glsl; sourceTree = SOURCE_ROOT; };
+		EE9D3D032B1D825000D87099 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OpenGLLayeredView/Source/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		EE9D3D042B1D825000D87099 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OpenGLLayeredView/Source/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		EE9D3D052B1D825000D87099 /* LayeredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayeredView.h; path = OpenGLLayeredView/Source/LayeredView.h; sourceTree = SOURCE_ROOT; };
+		EE9D3D062B1D825000D87099 /* LayeredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LayeredView.m; path = OpenGLLayeredView/Source/LayeredView.m; sourceTree = SOURCE_ROOT; };
+		EE9D3D072B1D825000D87099 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OpenGLLayeredView/Source/main.m; sourceTree = SOURCE_ROOT; };
+		EE9D3D082B1D825000D87099 /* OpenGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLLayer.h; path = OpenGLLayeredView/Source/OpenGLLayer.h; sourceTree = SOURCE_ROOT; };
+		EE9D3D092B1D825000D87099 /* OpenGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLLayer.m; path = OpenGLLayeredView/Source/OpenGLLayer.m; sourceTree = SOURCE_ROOT; };
+		EE9D3D0A2B1D825000D87099 /* OpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLRenderer.h; path = OpenGLLayeredView/Source/OpenGLRenderer.h; sourceTree = SOURCE_ROOT; };
+		EE9D3D0B2B1D825000D87099 /* OpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLRenderer.m; path = OpenGLLayeredView/Source/OpenGLRenderer.m; sourceTree = SOURCE_ROOT; };
+		EE9D3D0C2B1D825000D87099 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = OpenGLLayeredView/Source/ViewController.h; sourceTree = SOURCE_ROOT; };
+		EE9D3D0D2B1D825000D87099 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = OpenGLLayeredView/Source/ViewController.m; sourceTree = SOURCE_ROOT; };
+		EE9D3D142B1D829E00D87099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = OpenGLLayeredView/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		EE9D3D162B1D829E00D87099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = OpenGLLayeredView/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		EEC2D0F82B1CA56800937119 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; wrapsLines = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE73E8F22B1B2D210040EBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE451D0E2B1C659A0048C11C /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D3CFE2B1D821300D87099 /* SimpleFragmentShader.glsl */,
+				EE9D3CFF2B1D821300D87099 /* SimpleVertexShader.glsl */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		EE73E8EC2B1B2D210040EBDA = {
+			isa = PBXGroup;
+			children = (
+				EEC2D0F82B1CA56800937119 /* Readme.md */,
+				EE73E8F72B1B2D210040EBDA /* OpenGLLayeredView */,
+				EE73E8F62B1B2D210040EBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE73E8F62B1B2D210040EBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE73E8F52B1B2D210040EBDA /* OpenGLLayeredView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE73E8F72B1B2D210040EBDA /* OpenGLLayeredView */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D3D022B1D822400D87099 /* Source */,
+				EE451D0E2B1C659A0048C11C /* Shaders */,
+				EE73E8FB2B1B2D210040EBDA /* Supporting Files */,
+			);
+			name = OpenGLLayeredView;
+			path = LayeredBackOpenGLView;
+			sourceTree = "<group>";
+		};
+		EE73E8FB2B1B2D210040EBDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D3D142B1D829E00D87099 /* Assets.xcassets */,
+				EE9D3D152B1D829E00D87099 /* Main.storyboard */,
+				EE9D3D072B1D825000D87099 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE9D3D022B1D822400D87099 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D3D032B1D825000D87099 /* AppDelegate.h */,
+				EE9D3D042B1D825000D87099 /* AppDelegate.m */,
+				EE9D3D052B1D825000D87099 /* LayeredView.h */,
+				EE9D3D062B1D825000D87099 /* LayeredView.m */,
+				EE9D3D082B1D825000D87099 /* OpenGLLayer.h */,
+				EE9D3D092B1D825000D87099 /* OpenGLLayer.m */,
+				EE9D3D0A2B1D825000D87099 /* OpenGLRenderer.h */,
+				EE9D3D0B2B1D825000D87099 /* OpenGLRenderer.m */,
+				EE9D3D0C2B1D825000D87099 /* ViewController.h */,
+				EE9D3D0D2B1D825000D87099 /* ViewController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE73E8F42B1B2D210040EBDA /* OpenGLLayeredView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE73E9092B1B2D210040EBDA /* Build configuration list for PBXNativeTarget "OpenGLLayeredView" */;
+			buildPhases = (
+				EE73E8F12B1B2D210040EBDA /* Sources */,
+				EE73E8F22B1B2D210040EBDA /* Frameworks */,
+				EE73E8F32B1B2D210040EBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLLayeredView;
+			productName = LayeredBackOpenGLView;
+			productReference = EE73E8F52B1B2D210040EBDA /* OpenGLLayeredView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE73E8ED2B1B2D210040EBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Incremental Innovations";
+				TargetAttributes = {
+					EE73E8F42B1B2D210040EBDA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE73E8F02B1B2D210040EBDA /* Build configuration list for PBXProject "OpenGLLayeredView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE73E8EC2B1B2D210040EBDA;
+			productRefGroup = EE73E8F62B1B2D210040EBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE73E8F42B1B2D210040EBDA /* OpenGLLayeredView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE73E8F32B1B2D210040EBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9D3D002B1D821300D87099 /* SimpleFragmentShader.glsl in Resources */,
+				EE9D3D172B1D829E00D87099 /* Assets.xcassets in Resources */,
+				EE9D3D012B1D821300D87099 /* SimpleVertexShader.glsl in Resources */,
+				EE9D3D182B1D829E00D87099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE73E8F12B1B2D210040EBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9D3D132B1D825000D87099 /* ViewController.m in Sources */,
+				EE9D3D0F2B1D825000D87099 /* LayeredView.m in Sources */,
+				EE9D3D0E2B1D825000D87099 /* AppDelegate.m in Sources */,
+				EE9D3D102B1D825000D87099 /* main.m in Sources */,
+				EE9D3D112B1D825000D87099 /* OpenGLLayer.m in Sources */,
+				EEC2D0F92B1CA56800937119 /* Readme.md in Sources */,
+				EE9D3D122B1D825000D87099 /* OpenGLRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE9D3D152B1D829E00D87099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9D3D162B1D829E00D87099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE73E9072B1B2D210040EBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE73E9082B1B2D210040EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE73E90A2B1B2D210040EBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLLayeredView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.LayeredBackOpenGLView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE73E90B2B1B2D210040EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLLayeredView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.LayeredBackOpenGLView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE73E8F02B1B2D210040EBDA /* Build configuration list for PBXProject "OpenGLLayeredView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE73E9072B1B2D210040EBDA /* Debug */,
+				EE73E9082B1B2D210040EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE73E9092B1B2D210040EBDA /* Build configuration list for PBXNativeTarget "OpenGLLayeredView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE73E90A2B1B2D210040EBDA /* Debug */,
+				EE73E90B2B1B2D210040EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE73E8ED2B1B2D210040EBDA /* Project object */;
+}

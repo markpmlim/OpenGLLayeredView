@@ -12,7 +12,7 @@ macOS 10.6 (SnowLeopard) introduced a new "NSOpenGLLayer" which supports OpenGL 
 
 Following Apple's recommended guidelines:
 
-(a) We sub-class NSOpenGLLayer
+(a) Sub-class NSOpenGLLayer called OpenGLLayer.
 
 (b) The method -openGLPixelFormatForDisplayMask: is overridden to return an instance of NSOpenGLPixelFormat.
     Normally, macOS defaults to OpenGL fixed function pipeline. We will request for an OpenGL core profile.
@@ -25,4 +25,28 @@ Following Apple's recommended guidelines:
 
     so that our custom draw code can be executed.
 
-The system creates a CVDisplayLink which will can 
+Notes: The system creates a CVDisplayLink object which will call the drawInOpenGLContext:... method asynchronously or synchronously depending on the status of NSOpenGLLayer's asynchronous property.
+
+Comments within some of the source files should help the reader gain a better insight. One important to note is the OpenGLRender object can only be instantiated when the system returned an OpenGL 3.2 context.
+
+<br />
+<br />
+
+The notes within the documentation folder are from Apple's MacOSX Developer Release Notes.
+
+
+<br />
+<br />
+<br />
+
+Compiled with XCode 8.3.2
+Tested under macOS 10.12
+
+<br />
+<br />
+
+Weblinks:
+
+https://stackoverflow.com/questions/7610117/layer-backed-openglview-redraws-only-if-window-is-resized
+
+https://stackoverflow.com/questions/9442657/draw-from-a-separate-thread-with-nsopengllayer
